@@ -42,8 +42,6 @@ app.use(
 // Ustawienie opcji strictQuery
 mongoose.set("strictQuery", true); // lub false, w zależności od tego, co chcesz osiągnąć
 
-// Reszta twojego kodu...
-
 mongoose
   .connect("mongodb://localhost:27017/cas_house", {
     useNewUrlParser: true,
